@@ -1,0 +1,44 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+**/.DS_Store
+
+# Copilot / AI assistant instructions (internal, not for public)
+.github/copilot-instructions.md
+
+# Xcode — user-specific state (NOT the project file itself)
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# Xcode build output
+build/
+DerivedData/
+Examples/*/build/
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Packages/
+Package.pins
+
+# CocoaPods (not used, but just in case)
+Pods/
+Podfile.lock
+
+# Carthage (not used)
+Carthage/Build/
+
+# Build artifacts
+*.o
+*.lo
+*.a
+*.la
+*.so
+*.dylib
+*.dSYM.zip
+*.dSYM
